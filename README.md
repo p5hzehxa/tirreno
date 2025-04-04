@@ -45,6 +45,10 @@ Check out the online demo at [play.tirreno.com](https://play.tirreno.com) (admin
 */10 * * * * cd /path/to/tirreno && /usr/bin/php /path/to/tirreno/index.php /cron >> /path/to/tirreno/logs/error.log 2>&1
 ```
 
+## Docker setup (optional)
+
+To run tirreno within docker container you may use `tirreno/tirreno:latest` image published on [dockerhub](https://hub.docker.com/r/tirreno/tirreno).
+
 ## Documentation
 
 See the [User Guide](https://docs.tirreno.com/) for details on how to use tirreno.
