@@ -92,10 +92,6 @@ Continue with step 4 of [Quickstart](#quickstart-install).
 */10 * * * * /usr/bin/php /absolute/path/to/tirreno/index.php /cron
 ```
 
-## Using Heroku (optional)
-
-Click [here](https://heroku.com/deploy?template=https://github.com/tirrenotechnologies/tirreno) to launch heroku deployment.
-
 ## Via Composer and Packagist (optional)
 
 tirreno is published at Packagist and could be installed with Composer:
@@ -119,7 +115,7 @@ composer require tirreno/tirreno
 
 ## API reference 
 
-tirreno('…')` is tirreno's built-in API. It gives your own code the same building blocks the console uses: the current request and page, the ingested data, the rule engine, the tirreno('queries') builder, logging, and utilities. Use it to customize tirreno. The examples below show custom sections built with this API.
+`tirreno('…')` is tirreno's built-in API. It gives your own code the same building blocks the console uses: the current request and page, the ingested data, the rule engine, the tirreno('queries') builder, logging, and utilities. Use it to customize tirreno. The examples below show custom sections built with this API.
 
 ### LLM bots
 
@@ -133,7 +129,7 @@ tirreno('…')` is tirreno's built-in API. It gives your own code the same build
 
 ## Documentation
 
-See the [User guide](https://docs.tirreno.com/) for details on how to use tirreno, [Developers documentation](https://github.com/tirrenotechnologies/DEVELOPMENT.md) to customize your integration, [Admin documentation](https://github.com/tirrenotechnologies/ADMIN.md) for installation, maintenance and updates.
+See the [User guide](https://github.com/tirrenotechnologies/OPERATOR.md) for details on how to use tirreno, [Developers documentation](https://github.com/tirrenotechnologies/DEVELOPMENT.md) to customize your integration, [Admin documentation](https://github.com/tirrenotechnologies/ADMIN.md) for installation, maintenance and updates.
 
 ## About
 
@@ -156,11 +152,11 @@ While working on the logo, we conducted our own historical study and traced ment
 * [Website](https://www.tirreno.com)
 * [Live demo](https://play.tirreno.com)
 * [Admin documentation](https://github.com/tirrenotechnologies/ADMIN.md)
-* [API reference](https://github.com/tirrenotechnologies/API.md)
 * [Developers documentation](https://github.com/tirrenotechnologies/DEVELOPMENT.md)
+* [Operator guide](https://github.com/tirrenotechnologies/OPERATOR.md)
+* [API reference](https://github.com/tirrenotechnologies/API.md)
 * [Resource center](https://www.tirreno.com/bat/)
 * [Docker Hub](https://hub.docker.com/r/tirreno/tirreno)
-* [User guide](https://docs.tirreno.com)
 * [Packagist](https://packagist.org/packages/tirreno/tirreno)
 * [Mattermost community](https://chat.tirreno.com)
 
